@@ -1,0 +1,27 @@
+data:
+  attributes:
+    types:
+      resourceTypeGeneral: Dataset
+    contributors:
+      - name: Gemma Bale
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Supervisor
+        order: 1
+      - name: John O'Brien
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Supervisor
+        order: 2
+    creators:
+      - name: Gemma Bale
+        nameType: Personal
+      - name: John O'Brien
+        nameType: Personal
+    descriptions:
+      - description: N/A
+        descriptionType: Abstract

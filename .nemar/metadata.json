@@ -2,53 +2,12 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Cambridge_data",
+  "description": "Cambridge fNIRS dataset containing functional near-infrared spectroscopy (fNIRS) neuroimaging data acquired from participants during cognitive tasks. This is a raw fNIRS dataset mirrored from OpenNeuro (ds007714). The dataset includes optical neuroimaging measurements using fNIRS technology. For complete information about participants, experimental design, data collection methods, study protocols, authors, and funding, please refer to the original dataset on OpenNeuro at https://openneuro.org/datasets/ds007714.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Enter author names here": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds007714.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on007714",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007714",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "funding_references": [
-    {
-      "funder_name": "Enter funding details here, if applicable."
-    },
-    {
-      "funder_name": "Not specified",
-      "award_number": ""
-    }
-  ],
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "nirs"
-  ],
-  "resource_type_specific": "fNIRS Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".json",
-    ".md",
-    ".snirf",
-    ".tsv",
-    ".yml"
-  ],
-  "description": "Cambridge fNIRS dataset containing functional near-infrared spectroscopy (fNIRS) neuroimaging data. This is a raw fNIRS dataset mirrored from OpenNeuro (ds007714). This dataset is a mirror/copy of the original OpenNeuro dataset. For detailed information about participants, experimental design, data collection methods, study protocols, authors, and funding, please refer to the original dataset on OpenNeuro at https://openneuro.org/datasets/ds007714 and its associated documentation.",
   "keywords": [
     {
       "term": "fNIRS"
@@ -66,8 +25,48 @@
       "term": "Cambridge"
     },
     {
-      "term": "mirrored dataset"
+      "term": "OpenNeuro"
     }
   ],
-  "source_hash": "5ee27d9fcb35d83552eeed174b0f5512b8d027ccf62ac2bea8b776b3db72135e"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on007714",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007714",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007714.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Enter funding details here, if applicable."
+    },
+    {
+      "funder_name": "No funding information available"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "fNIRS Dataset",
+  "modalities": [
+    "nirs"
+  ],
+  "sizes": [
+    "1.3 GB (65 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".snirf",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "d9844c22520926b669fc3709705077e8ee4ac2acc9175a8bc75b8a44e53ae60d"
 }

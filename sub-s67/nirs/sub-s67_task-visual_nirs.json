@@ -1,1 +1,1 @@
-{"TaskName": "visual", "SamplingFrequency": 5.0, "NIRSChannelCount": 864, "NIRSSourceOptodeCount": 18, "NIRSDetectorOptodeCount": 24}
+{"TaskName": "visual", "SamplingFrequency": 5.0, "NIRSChannelCount": 864, "NIRSSourceOptodeCount": 18, "NIRSDetectorOptodeCount": 24, "RecordingDuration": 567.4, "RecordingType": "continuous"}
